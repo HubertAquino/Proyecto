@@ -1,0 +1,247 @@
+/* Body */
+body {
+  background: peru;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.principal-T {
+  color: black;
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@import "compass/css3";
+
+/***********************
+* Essential Structure *
+***********************/
+.flexsearch--wrapper {
+height: auto;
+width: auto;
+max-width: 100%;
+overflow: hidden;
+background: transparent;
+margin: 0;
+position: static;
+}
+
+.flexsearch--form {
+overflow: hidden;
+position: relative;
+}
+
+.flexsearch--input-wrapper {
+padding: 0 66px 0 0; /* Right padding for submit button width */
+overflow: hidden;
+}
+
+.flexsearch--input {
+width: 100%;
+}
+
+/***********************
+* Configurable Styles *
+***********************/
+.flexsearch {
+padding: 0 25px 0 200px; /* Padding for other horizontal elements */
+}
+
+.flexsearch--input {
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+ height: 60px;
+padding: 0 46px 0 10px;
+border-color: #888;
+border-radius: 35px; /* (height/2) + border-width */
+border-style: solid;
+border-width: 5px;
+margin-top: 15px;
+color: #333;
+font-family: 'Helvetica', sans-serif;
+font-size: 26px;
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+.flexsearch--submit {
+position: absolute;
+right: 0;
+top: 0;
+display: block;
+width: 60px;
+height: 60px;
+padding: 0;
+border: none;
+margin-top: 20px; /* margin-top + border-width */
+margin-right: 5px; /* border-width */
+background: transparent;
+color: #888;
+font-family: 'Helvetica', sans-serif;
+font-size: 40px;
+line-height: 60px;
+}
+
+.flexsearch--input:focus {
+outline: none;
+border-color: #333;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+ color: #333; 
+}
+
+.flexsearch--submit:hover {
+color: #333;
+cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+color: #888;  
+}
+
+input:-moz-placeholder {
+color: #888
+}
+
+
+button {
+width: 130px;
+background: black;
+color: white;
+}
+
+.entrada {
+font-size: 20px;
+text-align: center;
+}
+
+h3 {
+font-weight: bold;
+text-align: center;
+}
+
+h4 {
+font-weight: bold;
+text-align: center;
+}
+
+.superior {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.arriba {
+background: black;
+color: white;
+border: 10px solid black;
+}
+
+.arriba ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.arriba li {
+  display: inline-block;
+}
+
+.arriba a {
+  transition: all 0.3s;
+}
+
+.arriba a:hover {
+  color: peru;
+}
+
+.banner img {
+width: 1520px;
+}
+
+.ofertas img {
+width: 400px; 
+height:300px;
+ border-width: 10px;
+ border-style: solid;
+ border-color: black;
+}
+
+.iconos {
+width: 50px;
+height: 50px;
+}
+
+h2 {
+font-weight: bold;
+text-align: center;
+}
+
+.destinos img {
+width: 300px; 
+height:280px;
+border-width: 10px;
+ border-style: solid;
+ border-color: black;
+}
+
+.destinos {
+font-size: 30px;
+}
+
+.destinos h4 {
+font-size: 40px;
+}
+
+.destinos h2 {
+font-size: 40px;
+}
+
+h1	{
+text-align: center;
+}
+
+.copyright {
+font-weight: bold;
+}
+
+.contacto {
+font-size: 40px;
+}
+
+.detalle img {
+width: 800px;
+height: 600px;
+border-width: 10px;
+ border-style: solid;
+ border-color: black;
+ display: block;
+ margin: auto;
+}
+
+.detalle {
+display: block;
+ margin: auto;
+ font-weight: bolder;	
+}
+
+.incluye {
+border-width: 10px;
+ border-style: solid;
+ border-color: black;
+ font-size: 30px;
+ background: black;
+ color: white;
+}
+
+.formulario input {
+width: 600px;
+}

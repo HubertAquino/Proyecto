@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
 /* Body */
 body {
   background: peru;
+  font-family: 'Raleway', sans-serif;
 }
 
 .logo {
@@ -17,101 +19,6 @@ a {
   text-decoration: none;
   color: white;
 }
-
-@import "compass/css3";
-
-/***********************
-* Essential Structure *
-***********************/
-.flexsearch--wrapper {
-height: auto;
-width: auto;
-max-width: 100%;
-overflow: hidden;
-background: transparent;
-margin: 0;
-position: static;
-}
-
-.flexsearch--form {
-overflow: hidden;
-position: relative;
-}
-
-.flexsearch--input-wrapper {
-padding: 0 66px 0 0; /* Right padding for submit button width */
-overflow: hidden;
-}
-
-.flexsearch--input {
-width: 100%;
-}
-
-/***********************
-* Configurable Styles *
-***********************/
-.flexsearch {
-padding: 0 25px 0 200px; /* Padding for other horizontal elements */
-}
-
-.flexsearch--input {
--webkit-box-sizing: content-box;
--moz-box-sizing: content-box;
-box-sizing: content-box;
- height: 60px;
-padding: 0 46px 0 10px;
-border-color: #888;
-border-radius: 35px; /* (height/2) + border-width */
-border-style: solid;
-border-width: 5px;
-margin-top: 15px;
-color: #333;
-font-family: 'Helvetica', sans-serif;
-font-size: 26px;
--webkit-appearance: none;
--moz-appearance: none;
-}
-
-.flexsearch--submit {
-position: absolute;
-right: 0;
-top: 0;
-display: block;
-width: 60px;
-height: 60px;
-padding: 0;
-border: none;
-margin-top: 20px; /* margin-top + border-width */
-margin-right: 5px; /* border-width */
-background: transparent;
-color: #888;
-font-family: 'Helvetica', sans-serif;
-font-size: 40px;
-line-height: 60px;
-}
-
-.flexsearch--input:focus {
-outline: none;
-border-color: #333;
-}
-
-.flexsearch--input:focus.flexsearch--submit {
- color: #333; 
-}
-
-.flexsearch--submit:hover {
-color: #333;
-cursor: pointer;
-}
-
-::-webkit-input-placeholder {
-color: #888;  
-}
-
-input:-moz-placeholder {
-color: #888
-}
-
 
 button {
 width: 130px;
@@ -140,29 +47,6 @@ text-align: center;
   align-items: center;
 }
 
-.arriba {
-background: black;
-color: white;
-border: 10px solid black;
-}
-
-.arriba ul {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.arriba li {
-  display: inline-block;
-}
-
-.arriba a {
-  transition: all 0.3s;
-}
-
-.arriba a:hover {
-  color: peru;
-}
-
 .banner img {
 width: 1520px;
 }
@@ -173,11 +57,6 @@ height:300px;
  border-width: 10px;
  border-style: solid;
  border-color: black;
-}
-
-.iconos {
-width: 50px;
-height: 50px;
 }
 
 h2 {
@@ -244,4 +123,105 @@ border-width: 10px;
 
 .formulario input {
 width: 600px;
+}
+
+/* Código Hubert */
+/* Header */
+.cabecera {
+  position: relative;
+  box-shadow: 0 10px 15px rgb(0, 0, 0, 0.3);
+}
+
+.text-principal {
+  color: black;
+  margin: 0;
+}
+
+.arriba {
+  background: black;
+  color: white;
+  padding: 20px 0;
+}
+
+.arriba ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.arriba li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.arriba a {
+  transition: all 0.3s;
+  padding: 0 5px;
+}
+
+.arriba a:hover {
+  color: peru;
+}
+
+.buscador input {
+  width: 70%;
+  border: 1px solid white;
+  border-radius: 10px 0 0 10px;
+  padding: 5px 10px;
+  outline: none;
+  margin-right: -5px;
+}
+
+.buscador i {
+  color: white;
+  background-color: black;
+  border-radius: 0 10px 10px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Banner */
+.banner-imagen {
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-image: URL(http://ismem1.desarrollando.tech/wp-content/uploads/2022/06/banner.jpg);
+  margin-bottom: 10px;
+}
+
+.banner h5 {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  margin-bottom: 60px;
+}
+
+.destacado h3 {
+  color: black;
+  margin-bottom: 50px;
+}
+
+/* Footer */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  position: relative;
+  box-shadow: 0 -10px 15px rgb(0, 0, 0, 0.3);
+}
+
+.entrada {
+  margin-bottom: 20px;
+}
+
+.iconos a {
+  margin: 0 10px;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.iconos a:hover {
+  color: peru;
 }

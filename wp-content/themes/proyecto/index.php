@@ -25,7 +25,7 @@
 		<?php } ?>
     </div>
     <div class="text-center boton-todo-papa">
-      <a href="#" class="boton-todo">Ver todo</a>
+      <a href="https://ismem1.desarrollando.tech/?page_id=67" class="boton-todo">Ver todo</a>
     </div>
   </section>
 <?php get_footer(); ?>

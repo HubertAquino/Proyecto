@@ -5,6 +5,14 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
 .logo {
   width: 150px;
   height: 150px;
@@ -200,7 +208,102 @@ width: 600px;
 
 .destacado h3 {
   color: black;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.destacado .caja {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: black;
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.destacado .caja img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.destacado .caja .abajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.destacado .caja h4 {
+  color: white;
+  margin: 0;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.destacado .caja p {
+  color: white;
+  margin: 0;
+  font-size: 18px;
+}
+
+.destacado .caja a {
+  border-radius: 5px;
+  padding: 5px 30px;
+  color: black;
+  background-color: wheat;
+}
+
+.boton-todo-papa {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.boton-todo {
+  color: white;
+  background-color: black;
+  padding: 5px 30px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  font-size: 20px;
+}
+
+.boton-todo:hover {
+  color: antiquewhite;
+}
+
+/* Single */
+.single {
+  padding: 50px 100px;
+}
+
+.single h2 {
+  color: black;
+}
+
+.single img {
+  width: 70%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 5px solid black;
+}
+
+.single h5 {
+  text-decoration: underline;
+}
+
+.single .fondito {
+  text-align: start;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.single .fondito ul {
+  margin: 0;
 }
 
 /* Footer */

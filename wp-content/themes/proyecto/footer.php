@@ -1,17 +1,19 @@
 <footer class="footer">
-    <p class="entrada">
-      Regresa pronto a visitarnos!  Si quieres viajar cuenta con nosotros y revisa todo lo que quieras
-    </p>
-    <div class="row">
-      <div class="col-sm-6 text-center align-self-center">
-        ©Copyright 2022 For Tours de viaje
+    <div class="container">
+      <p class="entrada">
+        Regresa pronto a visitarnos!  Si quieres viajar cuenta con nosotros y revisa todo lo que quieras
+      </p>
+      <div class="row">
+        <div class="col-sm-6 text-center align-self-center">
+          ©Copyright 2022 For Tours de viaje
+        </div>
+        <div class="iconos col-sm-6 text-center align-self-center">
+          <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        </div>   
       </div>
-      <div class="iconos col-sm-6 text-center align-self-center">
-        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-      </div>   
     </div>
   </footer>
   <script

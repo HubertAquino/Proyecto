@@ -21,11 +21,11 @@ function codigo_inicial() {
 add_action( 'init', 'crear_destinos_taxonomy' );
 function crear_destinos_taxonomy() {
   register_taxonomy(
-    'Categoría',
+    'grupos',
     'destinos',
     [
-      'label' => __( 'Categoría' ),
-      'rewrite' => array( 'slug' => 'categoria' ),
+      'label' => __( 'Grupos' ),
+      'rewrite' => array( 'slug' => 'grupos' ),
       'hierarchical' => true,
       'show_admin_column' => true,
 		]

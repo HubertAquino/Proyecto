@@ -27,10 +27,10 @@
       </div>
       <nav class="arriba">
         <ul class="container">
-          <li><a href="https://ismem1.desarrollando.tech/?page_id=67">Ofertas</a></li>
-          <li><a href="nacionales.html">Nacionales</a></li>
-          <li><a href="internacionales.html">Internacionales</a></li>
-          <li><a href="contacto.html">Contáctanos</a></li>
+          <li><a href="https://ismem1.desarrollando.tech/turistea/">Turistea</a></li>
+          <li><a href="https://ismem1.desarrollando.tech/grupos/nacionales/">Nacionales</a></li>
+          <li><a href="https://ismem1.desarrollando.tech/grupos/internacionales/">Internacionales</a></li>
+          <li><a href="https://ismem1.desarrollando.tech/contactanos/">Contáctanos</a></li>
         </ul>
       </nav>
   </header>

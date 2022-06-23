@@ -1,7 +1,7 @@
-<?php /* Template Name: Ofertas */
+<?php /* Template Name: Turistea */
 get_header(); ?>
   <section class="container destacado text-center pt-4 pb-3">
-    <h3>Ofertas</h3>
+    <h3>Turistea</h3>
     <div class="row mb-2">
       <?php $destinos = new WP_Query([
 			  'showposts' => -1,
